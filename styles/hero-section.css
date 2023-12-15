@@ -9,8 +9,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 58.6%;
-      padding: 4.69vw 7vw 5.86vw 4.3vw; 
+      width: 58%;
+      padding: 4.69vw 6.8vw 5.86vw 4.3vw; 
 }
 
 .hero-section > .left-side p:nth-child(1) {
@@ -18,19 +18,22 @@
       font-size: 3vw;
       font-weight: 300;
       word-spacing: 0.1vw;
-      line-height: 1.15;
+      line-height: 1.1;
 }
 
 .hero-section > .left-side p:nth-child(1) span {
       font-family: 'LatoFont', sans-serif;
       font-weight: bold;
+      letter-spacing: -0.04vw;
 }
 
 .hero-section > .left-side p:nth-child(2) {
       color: rgb(179, 179, 179);
       font-size: 2.4vw;
       font-weight: 300;
-      line-height: 1.4;
+      letter-spacing: -0.03vw;
+      word-spacing: 0.05vw;
+      line-height: 1.45;
 }
 
 .hero-section > .left-side > .buttons {
@@ -46,6 +49,11 @@
       word-spacing: 0.2vw;
 }
 
+.hero-section .left-side > .buttons h2 {
+      font-weight: 400;
+      word-spacing: 0.1vw;
+}
+
 .hero-section > .left-side > .buttons > .sign-up {
       color: black;
       background-color: rgb(75, 206, 121);
@@ -55,10 +63,6 @@
 
 .hero-section > .left-side > .buttons > .sign-up:hover {
       scale: 1.05;
-}
-
-.hero-section .left-side > .buttons > .sign-up h2 {
-      font-weight: 400;
 }
 
 .hero-section .left-side > .buttons > .learn-more {
@@ -75,12 +79,12 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      width: 41.4%;
+      width: 42%;
 }
 
 .hero-section > .right-side p {
-      padding-bottom: 0.7vw;
-      padding-left: 1.2vw;
+      padding-bottom: 0.5vw;
+      padding-left: 1.3vw;
       font-size: 1.5vw;
       font-weight: bold;
       letter-spacing: -0.03vw;

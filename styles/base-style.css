@@ -1,0 +1,11 @@
+* {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+}
+
+body {
+      color: white;
+      background-color: rgb(25, 26, 29);
+      font-family: 'LatoFont', sans-serif;
+}

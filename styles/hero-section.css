@@ -1,0 +1,102 @@
+.hero-section {
+      display: flex;
+      height: 41.4vw;
+      background: rgb(68, 71, 80);
+      background: radial-gradient(farthest-corner at 20% 0, rgba(65, 70, 80) 0%, rgba(12, 12, 14) 100%);
+}
+
+.hero-section > .left-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 58.6%;
+      padding: 4.69vw 7vw 5.86vw 4.3vw; 
+}
+
+.hero-section > .left-side p:nth-child(1) {
+      font-family: 'LatoFont', sans-serif;
+      font-size: 3vw;
+      font-weight: 300;
+      word-spacing: 0.1vw;
+      line-height: 1.15;
+}
+
+.hero-section > .left-side p:nth-child(1) span {
+      font-family: 'LatoFont', sans-serif;
+      font-weight: bold;
+}
+
+.hero-section > .left-side p:nth-child(2) {
+      color: rgb(179, 179, 179);
+      font-size: 2.4vw;
+      font-weight: 300;
+      line-height: 1.4;
+}
+
+.hero-section > .left-side > .buttons {
+      display: flex;
+      gap: 1.2vw;
+      margin-top: 1.2vw;
+}
+
+.hero-section > .left-side > .buttons div {
+      padding: 1.3vw 1.8vw;
+      border-radius: 0.3vw;
+      font-size: 1.7vw;
+      word-spacing: 0.2vw;
+}
+
+.hero-section > .left-side > .buttons > .sign-up {
+      color: black;
+      background-color: rgb(75, 206, 121);
+      cursor: pointer;
+      transition: 200ms;
+}
+
+.hero-section > .left-side > .buttons > .sign-up:hover {
+      scale: 1.05;
+}
+
+.hero-section .left-side > .buttons > .sign-up h2 {
+      font-weight: 400;
+}
+
+.hero-section .left-side > .buttons > .learn-more {
+      background-color: rgb(17, 17, 17);
+      cursor: pointer;
+      transition: 200ms;
+}
+
+.hero-section > .left-side > .buttons > .learn-more:hover {
+      scale: 1.05;
+}
+
+.hero-section > .right-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 41.4%;
+}
+
+.hero-section > .right-side p {
+      padding-bottom: 0.7vw;
+      padding-left: 1.2vw;
+      font-size: 1.5vw;
+      font-weight: bold;
+      letter-spacing: -0.03vw;
+      word-spacing: 0.1vw;
+}
+
+.hero-section > .right-side p span {
+      color: rgb(120, 218, 253);
+      cursor: pointer;
+}
+
+.hero-section > .right-side p span:hover {
+      text-decoration: underline;
+}
+
+.hero-section > .right-side img {
+      width: 100%;
+      box-shadow: 0 0.45vw 1.35vw rgba(0, 0, 0, 0.45);
+}
